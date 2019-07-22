@@ -2,7 +2,7 @@ import React from 'react';
 import './Face-recognition.css'
 
 
-const FaceRecognition = ({imageUrl, box}) => {
+const SignIn = ({imageUrl, box}) => {
 
     return (
         <div className='center'>
@@ -16,4 +16,4 @@ const FaceRecognition = ({imageUrl, box}) => {
     );
 };
 
-export default FaceRecognition
+export default SignIn
